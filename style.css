@@ -1,0 +1,80 @@
+body{
+    background: #7680F1;
+}
+.oke-cont{
+    width: 80%;
+    height: auto;
+    background: #ffffff;
+    margin-top: 44%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+.joke{
+    padding: 12px 3px 15px 15px;
+}
+.author{
+margin-left: 10px;
+
+}
+button{
+    color:black;
+    background: #7680F1;
+    border:none;
+    padding: 3px 8px;
+    margin:10px auto;
+    border-radius: 5px;
+
+}
+.btn{
+    float: right;
+    margin-right: 10px;
+    background: #FF0101;
+    border-radius: 10px;
+    padding: 2px 10px;
+
+}
+.bottom{
+    margin-top: -30px;
+}
+.spinner {
+    display: flex;
+    gap: 8px;
+    margin-left: 35%;
+    
+}
+
+.spinner>.dot {
+
+    width: 1rem;
+
+    height: 1rem;
+
+    border-radius: 50%;
+
+    background-color: hotpink;
+    animation: blur 1s infinite alternate;
+
+}
+
+.spinner>.dot:nth-child(2) {
+
+    animation-delay: 200ms;
+
+}
+
+.spinner>.dot:nth-child(3) {
+    animation-delay: 400ms;
+}
+
+@keyframes blur {
+
+    to {
+        filter: blur (4px);
+
+        opacity: 0;
+    }
+
+}
